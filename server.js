@@ -82,6 +82,6 @@ app.delete('/medicamentos/:id', (req, res) => {
 
 // --- INICIALIZAÇÃO ---
 app.listen(PORT, () => {
-  console.log(`🔥 Servidor rodando na porta ${PORT}`);
-  console.log(`👉 Aguardando conexões...`);
+  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Aguardando conexões...`);
 });
